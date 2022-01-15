@@ -1,9 +1,23 @@
+
+
+.navbar{
+    padding: 0px 90px;    
+}
 section{
     border: solid gainsboro;
+    
 }
+
 .header{
     display: flex;
-    width: 100%;
+    overflow: hidden;
+    padding: 0px 80px;
+    margin-left: 50px;
+  border: 2px solid silver;   
+   
+}
+.heading{
+    font-size: 40px;
 }
 .header-info{
     height: 270px;
@@ -11,32 +25,31 @@ width: 582px;
 left: 120px;
 top: 285px;
 border-radius: 41px;
-
+margin-top: 80px;
 }
 
-
-article>img{
-    height: 414px;
-width: 440px;
-left: 835px;
-top: 211px;
-border-radius: 0px;
-
+.img:hover.img{
+    
+    border-radius: 90px;
+   
+    padding-left: 50px;
+    transform: scale(1) rotate(360deg);
+    transition: transform 2.5s ease-in-out;
 }
 /* span  */
 .pree-use-icon{
-    background-color: blueviolet;
+    background-color: indigo;
     height: 44px;
-width: 196px;
-left: 120px;
-top: 511px;
-border-radius: 41px;
-padding: 10px, 24px, 10px, 24px;
-font-size: 16px;
-color: whitesmoke;
-height: 24px;
+    width: 196px;
+    left: 120px;
+    border-radius: 41px;
+    padding: 10px, 24px, 10px, 24px;
+    font-size: 20px;
+    color:ivory;
+    height: 24px;
+    margin-right: 20px;
 }
-/* span  */
+ /* span  */
 
 
 
@@ -50,6 +63,9 @@ font-family: 'Playfair Display', serif;
 font-family: 'Poppins', sans-serif;
 font-family: 'Yeseva One', cursive;
 }
+.container{
+    overflow: hidden;
+}
 
 /* product-info  */
 
@@ -58,7 +74,7 @@ font-family: 'Yeseva One', cursive;
     height: 255px;
 }
 .price{
-    font-size: 1.5em;
+    font-size: 20px;
 }
 
 .info{
@@ -75,4 +91,40 @@ span{
 .empty{
     color: #FB8200;
 }
+.productSection{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0px 80px;
+}
+.productCard{
+    padding: 16px;
+    margin-top: 16px;
+    background: #FFFFFF;
+    margin-left: 8px;
+    margin-right: 8px;
+    border-radius: 8px;
+    box-shadow: 5px 5px 9px -3px grey;
+}
+.details{
+    color: crimson;
+  font-size: 20px;
+  float: right;
+  padding-right: 50px;
+}
+footer{
+    margin-top: 90px;
+    text-align: center;
+    background-color: rebeccapurple;
+    border-radius: 16px;
+    height: 150px;
 
+}
+/* media queries  */
+/* mob-dev  */
+@media only screen and(max-width:576px)  {
+    .body{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    
+}
