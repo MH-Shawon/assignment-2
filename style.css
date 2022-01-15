@@ -1,0 +1,78 @@
+section{
+    border: solid gainsboro;
+}
+.header{
+    display: flex;
+    width: 100%;
+}
+.header-info{
+    height: 270px;
+width: 582px;
+left: 120px;
+top: 285px;
+border-radius: 41px;
+
+}
+
+
+article>img{
+    height: 414px;
+width: 440px;
+left: 835px;
+top: 211px;
+border-radius: 0px;
+
+}
+/* span  */
+.pree-use-icon{
+    background-color: blueviolet;
+    height: 44px;
+width: 196px;
+left: 120px;
+top: 511px;
+border-radius: 41px;
+padding: 10px, 24px, 10px, 24px;
+font-size: 16px;
+color: whitesmoke;
+height: 24px;
+}
+/* span  */
+
+
+
+.collection{
+    text-align: center;
+    font-family: 'Abril Fatface', cursive;
+font-family: 'Cormorant', serif;
+font-family: 'Crimson Pro', serif;
+font-family: 'EB Garamond', serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Yeseva One', cursive;
+}
+
+/* product-info  */
+
+.pro-img{
+    width: 300px ; 
+    height: 255px;
+}
+.price{
+    font-size: 1.5em;
+}
+
+.info{
+    display: flex;
+    align-items: center;
+    
+}
+span{
+    padding-left: 15px;
+}
+.fa-star{
+    color: #FB8200;
+}
+.empty{
+    color: #FB8200;
+}
+
