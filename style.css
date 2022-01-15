@@ -121,15 +121,27 @@ footer{
 }
 /* media queries  */
 /* mob-dev  */
-@media only screen and(max-width:576px)  {
-    /* .body{
+@media screen and (max-width:576px){
+    .productSection {
+        display: grid;
         grid-template-columns: repeat(1, 1fr);
-    } */
-    .productSection{
-      
-        grid-template-columns: repeat(2, 1fr);
         padding: 0px 10px;
     }
-
+    .header {
+        overflow: hidden;
+        padding: 0px 20px;
+        margin-left: 5px;
+        border: 2px solid silver;
+        display: block;
+    }
+    .pro-img{
+       margin: auto;
+    }
+    .media{
+        margin: auto;
+    }
     
 }
+  
+
+    
